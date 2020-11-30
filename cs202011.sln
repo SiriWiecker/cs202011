@@ -45,15 +45,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poly2", "Poly2\Poly2.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poly3", "Poly3\Poly3.csproj", "{2DDE7C97-0263-4056-AEEA-B92D03B45DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{0166E6AF-D7DB-481B-AB4D-B7320DFAE724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{0166E6AF-D7DB-481B-AB4D-B7320DFAE724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerningDI", "TerningDI\TerningDI.csproj", "{35EF3741-0146-4B71-B03F-AC84A317E259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerningDI", "TerningDI\TerningDI.csproj", "{35EF3741-0146-4B71-B03F-AC84A317E259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknologisk.TerningApp.Kerne", "Teknologisk.TerningApp.Kerne\Teknologisk.TerningApp.Kerne.csproj", "{D251F6C2-5DDF-4919-B721-0E4EA73C910C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teknologisk.TerningApp.Kerne", "Teknologisk.TerningApp.Kerne\Teknologisk.TerningApp.Kerne.csproj", "{D251F6C2-5DDF-4919-B721-0E4EA73C910C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemo1", "DelegateDemo1\DelegateDemo1.csproj", "{E226C99D-11B6-45D0-93D3-280900A9B66E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateDemo1", "DelegateDemo1\DelegateDemo1.csproj", "{E226C99D-11B6-45D0-93D3-280900A9B66E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate2", "Delegate2\Delegate2.csproj", "{B3C2EAAF-1594-4E7A-B2A6-0504D1CE855B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate2", "Delegate2\Delegate2.csproj", "{B3C2EAAF-1594-4E7A-B2A6-0504D1CE855B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefreshDag4", "RefreshDag4\RefreshDag4.csproj", "{734D799C-92F5-4EAB-82C0-5319B56931BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTerning", "DelegateTerning\DelegateTerning.csproj", "{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regnemaskine (egne delegates)", "Regnemaskine (egne delegates)\Regnemaskine (egne delegates).csproj", "{809387AD-E199-4E0E-B341-5A08A489AC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regnemaskine (beregner med func)", "Regnemaskine (beregner med func)\Regnemaskine (beregner med func).csproj", "{62DBD08B-D270-4CC0-9327-BF4281F2E094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ø120-5 Brug af lambda", "Ø120-5 Brug af lambda\Ø120-5 Brug af lambda.csproj", "{676300C6-7201-4134-826F-65769F8730E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hændelser (FileWatcher)", "Hændelser (FileWatcher)\Hændelser (FileWatcher).csproj", "{6D504C35-2D2B-426A-8F94-04726FCAF941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hændelser (KreditMax)", "Hændelser (KreditMax)\Hændelser (KreditMax).csproj", "{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ø 150-1 (Linq)", "Ø 150-1 (Linq)\Ø 150-1 (Linq).csproj", "{10310148-ACDA-4B31-A5EB-70FD8FEB9720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +183,42 @@ Global
 		{B3C2EAAF-1594-4E7A-B2A6-0504D1CE855B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C2EAAF-1594-4E7A-B2A6-0504D1CE855B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C2EAAF-1594-4E7A-B2A6-0504D1CE855B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734D799C-92F5-4EAB-82C0-5319B56931BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734D799C-92F5-4EAB-82C0-5319B56931BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734D799C-92F5-4EAB-82C0-5319B56931BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734D799C-92F5-4EAB-82C0-5319B56931BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809387AD-E199-4E0E-B341-5A08A489AC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809387AD-E199-4E0E-B341-5A08A489AC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809387AD-E199-4E0E-B341-5A08A489AC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809387AD-E199-4E0E-B341-5A08A489AC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DBD08B-D270-4CC0-9327-BF4281F2E094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DBD08B-D270-4CC0-9327-BF4281F2E094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DBD08B-D270-4CC0-9327-BF4281F2E094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DBD08B-D270-4CC0-9327-BF4281F2E094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676300C6-7201-4134-826F-65769F8730E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676300C6-7201-4134-826F-65769F8730E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676300C6-7201-4134-826F-65769F8730E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676300C6-7201-4134-826F-65769F8730E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D504C35-2D2B-426A-8F94-04726FCAF941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D504C35-2D2B-426A-8F94-04726FCAF941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D504C35-2D2B-426A-8F94-04726FCAF941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D504C35-2D2B-426A-8F94-04726FCAF941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
