@@ -55,23 +55,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateDemo1", "DelegateDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate2", "Delegate2\Delegate2.csproj", "{B3C2EAAF-1594-4E7A-B2A6-0504D1CE855B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefreshDag4", "RefreshDag4\RefreshDag4.csproj", "{734D799C-92F5-4EAB-82C0-5319B56931BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefreshDag4", "RefreshDag4\RefreshDag4.csproj", "{734D799C-92F5-4EAB-82C0-5319B56931BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTerning", "DelegateTerning\DelegateTerning.csproj", "{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateTerning", "DelegateTerning\DelegateTerning.csproj", "{B017DAC5-B691-4015-9C0D-FCCD42F3CDDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regnemaskine (egne delegates)", "Regnemaskine (egne delegates)\Regnemaskine (egne delegates).csproj", "{809387AD-E199-4E0E-B341-5A08A489AC09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regnemaskine (egne delegates)", "Regnemaskine (egne delegates)\Regnemaskine (egne delegates).csproj", "{809387AD-E199-4E0E-B341-5A08A489AC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regnemaskine (beregner med func)", "Regnemaskine (beregner med func)\Regnemaskine (beregner med func).csproj", "{62DBD08B-D270-4CC0-9327-BF4281F2E094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regnemaskine (beregner med func)", "Regnemaskine (beregner med func)\Regnemaskine (beregner med func).csproj", "{62DBD08B-D270-4CC0-9327-BF4281F2E094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "Lambda\Lambda.csproj", "{9CC2AAB8-6B96-44E7-9D0C-B31C728AF2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ø120-5 Brug af lambda", "Ø120-5 Brug af lambda\Ø120-5 Brug af lambda.csproj", "{676300C6-7201-4134-826F-65769F8730E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ø120-5 Brug af lambda", "Ø120-5 Brug af lambda\Ø120-5 Brug af lambda.csproj", "{676300C6-7201-4134-826F-65769F8730E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hændelser (FileWatcher)", "Hændelser (FileWatcher)\Hændelser (FileWatcher).csproj", "{6D504C35-2D2B-426A-8F94-04726FCAF941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hændelser (FileWatcher)", "Hændelser (FileWatcher)\Hændelser (FileWatcher).csproj", "{6D504C35-2D2B-426A-8F94-04726FCAF941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hændelser (KreditMax)", "Hændelser (KreditMax)\Hændelser (KreditMax).csproj", "{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hændelser (KreditMax)", "Hændelser (KreditMax)\Hændelser (KreditMax).csproj", "{2291D5FA-9F7B-470A-A5AC-518C4E7A4DA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ø 150-1 (Linq)", "Ø 150-1 (Linq)\Ø 150-1 (Linq).csproj", "{10310148-ACDA-4B31-A5EB-70FD8FEB9720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ø 150-1 (Linq)", "Ø 150-1 (Linq)\Ø 150-1 (Linq).csproj", "{10310148-ACDA-4B31-A5EB-70FD8FEB9720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.IO.File - Directory", "System.IO.File - Directory\System.IO.File - Directory.csproj", "{45350E87-B394-4D69-A851-6A57EC5BF443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ø 167-1 (HTTP)", "Ø 167-1 (HTTP)\Ø 167-1 (HTTP).csproj", "{1BF3D910-6C8F-4E77-AE37-569681F02330}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +223,14 @@ Global
 		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10310148-ACDA-4B31-A5EB-70FD8FEB9720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45350E87-B394-4D69-A851-6A57EC5BF443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45350E87-B394-4D69-A851-6A57EC5BF443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45350E87-B394-4D69-A851-6A57EC5BF443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45350E87-B394-4D69-A851-6A57EC5BF443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF3D910-6C8F-4E77-AE37-569681F02330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF3D910-6C8F-4E77-AE37-569681F02330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF3D910-6C8F-4E77-AE37-569681F02330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF3D910-6C8F-4E77-AE37-569681F02330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
