@@ -37,7 +37,7 @@ namespace Lambda
             Console.WriteLine(f15(1));
 
             // husk at en lambda er en funktion så referencen skal ind et sted
-            Func<int, int, int> d = (int a, int b) => { return a + b } ; 
+            // Func<int, int, int> d = (int a, int b) => { return a + b } ; 
             Func<int, int, int> c = (a, b) => a + b;
 
             // Linq
